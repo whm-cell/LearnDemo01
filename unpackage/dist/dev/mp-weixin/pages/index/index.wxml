@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{a}}</text></view></view>
+<swiper class="banner" indicator-dots circular autoplay="{{false}}"><swiper-item wx:for="{{a}}" wx:for-item="item" wx:key="c"><image bindtap="{{item.a}}" src="{{item.b}}"></image></swiper-item></swiper>
